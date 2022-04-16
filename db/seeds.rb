@@ -36,12 +36,12 @@ reviews = Review.create([
         title: 'Great airline',
         description: 'I had a lovely time',
         scope: 5,
-        airline: airline.first
+        airline: Airline.first
     },
     {
         title: 'Bad airline',
         description: 'I had a bad time',
         scope: 1,
-        airline: airline.first
+        airline: Airline.first
     }
 ])
